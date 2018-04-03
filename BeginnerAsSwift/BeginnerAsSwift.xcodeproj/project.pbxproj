@@ -12,6 +12,25 @@
 		D929F3AB2072483C00112FAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D929F3A92072483C00112FAC /* Main.storyboard */; };
 		D929F3AD2072483C00112FAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D929F3AC2072483C00112FAC /* Assets.xcassets */; };
 		D929F3B02072483C00112FAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D929F3AE2072483C00112FAC /* LaunchScreen.storyboard */; };
+		D929F3F62072508C00112FAC /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = D929F3E12072508C00112FAC /* back.png */; };
+		D929F3F72072508C00112FAC /* change_pass.png in Resources */ = {isa = PBXBuildFile; fileRef = D929F3E22072508C00112FAC /* change_pass.png */; };
+		D929F3F82072508C00112FAC /* claritus_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D929F3E32072508C00112FAC /* claritus_logo.png */; };
+		D929F3F92072508C00112FAC /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = D929F3E42072508C00112FAC /* cross.png */; };
+		D929F3FA2072508C00112FAC /* drop.png in Resources */ = {isa = PBXBuildFile; fileRef = D929F3E52072508C00112FAC /* drop.png */; };
+		D929F3FB2072508C00112FAC /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = D929F3E62072508C00112FAC /* edit.png */; };
+		D929F3FC2072508C00112FAC /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = D929F3E72072508C00112FAC /* fb.png */; };
+		D929F3FD2072508C00112FAC /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = D929F3E82072508C00112FAC /* google.png */; };
+		D929F3FE2072508C00112FAC /* grey_line.png in Resources */ = {isa = PBXBuildFile; fileRef = D929F3E92072508C00112FAC /* grey_line.png */; };
+		D929F3FF2072508C00112FAC /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = D929F3EA2072508C00112FAC /* image.png */; };
+		D929F4002072508C00112FAC /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = D929F3EB2072508C00112FAC /* login.png */; };
+		D929F4012072508C00112FAC /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = D929F3EC2072508C00112FAC /* logout.png */; };
+		D929F4022072508C00112FAC /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = D929F3ED2072508C00112FAC /* menu.png */; };
+		D929F4032072508C00112FAC /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = D929F3EE2072508C00112FAC /* profile.png */; };
+		D929F4042072508C00112FAC /* signup.png in Resources */ = {isa = PBXBuildFile; fileRef = D929F3EF2072508C00112FAC /* signup.png */; };
+		D929F4052072508C00112FAC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D929F3F12072508C00112FAC /* Constants.swift */; };
+		D929F4062072508C00112FAC /* CustomKeychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D929F3F22072508C00112FAC /* CustomKeychain.swift */; };
+		D929F4072072508C00112FAC /* SingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D929F3F32072508C00112FAC /* SingletonClass.swift */; };
+		D929F4082072508C00112FAC /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D929F3F52072508C00112FAC /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +41,25 @@
 		D929F3AC2072483C00112FAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D929F3AF2072483C00112FAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D929F3B12072483C00112FAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D929F3E12072508C00112FAC /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		D929F3E22072508C00112FAC /* change_pass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = change_pass.png; sourceTree = "<group>"; };
+		D929F3E32072508C00112FAC /* claritus_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = claritus_logo.png; sourceTree = "<group>"; };
+		D929F3E42072508C00112FAC /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		D929F3E52072508C00112FAC /* drop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drop.png; sourceTree = "<group>"; };
+		D929F3E62072508C00112FAC /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
+		D929F3E72072508C00112FAC /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
+		D929F3E82072508C00112FAC /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = google.png; sourceTree = "<group>"; };
+		D929F3E92072508C00112FAC /* grey_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey_line.png; sourceTree = "<group>"; };
+		D929F3EA2072508C00112FAC /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		D929F3EB2072508C00112FAC /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		D929F3EC2072508C00112FAC /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		D929F3ED2072508C00112FAC /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		D929F3EE2072508C00112FAC /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		D929F3EF2072508C00112FAC /* signup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signup.png; sourceTree = "<group>"; };
+		D929F3F12072508C00112FAC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D929F3F22072508C00112FAC /* CustomKeychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomKeychain.swift; sourceTree = "<group>"; };
+		D929F3F32072508C00112FAC /* SingletonClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonClass.swift; sourceTree = "<group>"; };
+		D929F3F52072508C00112FAC /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,9 @@
 		D929F3A42072483C00112FAC /* BeginnerAsSwift */ = {
 			isa = PBXGroup;
 			children = (
+				D929F3E02072508C00112FAC /* img */,
+				D929F3F02072508C00112FAC /* ModalClass */,
+				D929F3F42072508C00112FAC /* NetworkClass */,
 				D929F3A52072483C00112FAC /* AppDelegate.swift */,
 				D929F3A72072483C00112FAC /* ViewController.swift */,
 				D929F3A92072483C00112FAC /* Main.storyboard */,
@@ -62,6 +103,46 @@
 				D929F3B12072483C00112FAC /* Info.plist */,
 			);
 			path = BeginnerAsSwift;
+			sourceTree = "<group>";
+		};
+		D929F3E02072508C00112FAC /* img */ = {
+			isa = PBXGroup;
+			children = (
+				D929F3E12072508C00112FAC /* back.png */,
+				D929F3E22072508C00112FAC /* change_pass.png */,
+				D929F3E32072508C00112FAC /* claritus_logo.png */,
+				D929F3E42072508C00112FAC /* cross.png */,
+				D929F3E52072508C00112FAC /* drop.png */,
+				D929F3E62072508C00112FAC /* edit.png */,
+				D929F3E72072508C00112FAC /* fb.png */,
+				D929F3E82072508C00112FAC /* google.png */,
+				D929F3E92072508C00112FAC /* grey_line.png */,
+				D929F3EA2072508C00112FAC /* image.png */,
+				D929F3EB2072508C00112FAC /* login.png */,
+				D929F3EC2072508C00112FAC /* logout.png */,
+				D929F3ED2072508C00112FAC /* menu.png */,
+				D929F3EE2072508C00112FAC /* profile.png */,
+				D929F3EF2072508C00112FAC /* signup.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		D929F3F02072508C00112FAC /* ModalClass */ = {
+			isa = PBXGroup;
+			children = (
+				D929F3F12072508C00112FAC /* Constants.swift */,
+				D929F3F22072508C00112FAC /* CustomKeychain.swift */,
+				D929F3F32072508C00112FAC /* SingletonClass.swift */,
+			);
+			path = ModalClass;
+			sourceTree = "<group>";
+		};
+		D929F3F42072508C00112FAC /* NetworkClass */ = {
+			isa = PBXGroup;
+			children = (
+				D929F3F52072508C00112FAC /* Reachability.swift */,
+			);
+			path = NetworkClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +204,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D929F4022072508C00112FAC /* menu.png in Resources */,
+				D929F3FA2072508C00112FAC /* drop.png in Resources */,
+				D929F3F92072508C00112FAC /* cross.png in Resources */,
+				D929F4012072508C00112FAC /* logout.png in Resources */,
+				D929F3FD2072508C00112FAC /* google.png in Resources */,
+				D929F3FB2072508C00112FAC /* edit.png in Resources */,
+				D929F3F62072508C00112FAC /* back.png in Resources */,
+				D929F3FF2072508C00112FAC /* image.png in Resources */,
+				D929F3F72072508C00112FAC /* change_pass.png in Resources */,
+				D929F3FC2072508C00112FAC /* fb.png in Resources */,
+				D929F4032072508C00112FAC /* profile.png in Resources */,
+				D929F4042072508C00112FAC /* signup.png in Resources */,
 				D929F3B02072483C00112FAC /* LaunchScreen.storyboard in Resources */,
 				D929F3AD2072483C00112FAC /* Assets.xcassets in Resources */,
 				D929F3AB2072483C00112FAC /* Main.storyboard in Resources */,
+				D929F3FE2072508C00112FAC /* grey_line.png in Resources */,
+				D929F3F82072508C00112FAC /* claritus_logo.png in Resources */,
+				D929F4002072508C00112FAC /* login.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +234,10 @@
 			files = (
 				D929F3A82072483C00112FAC /* ViewController.swift in Sources */,
 				D929F3A62072483C00112FAC /* AppDelegate.swift in Sources */,
+				D929F4082072508C00112FAC /* Reachability.swift in Sources */,
+				D929F4062072508C00112FAC /* CustomKeychain.swift in Sources */,
+				D929F4072072508C00112FAC /* SingletonClass.swift in Sources */,
+				D929F4052072508C00112FAC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
